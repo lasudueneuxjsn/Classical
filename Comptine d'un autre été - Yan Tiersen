@@ -1,0 +1,63 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 47-- tempo overides the delay
+
+    shared.scr = [[ [0u] r [wu] r [0u] r [wu] r
+[9y] r [wy] r [9y] r [wy] r
+[9y] r [Qy] r [9y] r [Qy] r
+[9y] e [Qy] e [9y] e [Qy] e
+[0u] [ro]I[wuo] [ra]s[0ua] r [wu] r
+[9y] [rI]o[wyI] [ro]p[9yo] r [wy] r
+[9y] [rI]u[yQI] [ra]s[9ya] r [Qy] r
+[9y] [eI]u[yQI] e [9y] e [Qy] e
+[0u] [ro]I[wuo] [ra]s[0ua] r [wu] r
+[9y] [rI]o[wyI] [ro]p[9yo] r [wy] r
+[9y] [rI]u[yQI] [ra]s[9ya] r [Qy] r
+[9y] [eI]u[yQI] e [9y] e [Qy] e
+[0uf] r [wu] [ra] [0u] r [wu] r
+[9yd] r [wy] [ra] [9y] r [wy] r
+[9yG] r [Qy] [ra] [9y] r [Qy] r
+[9yG] e [Qy] [ep] [9y] e [Qy] e
+[0uah] r [wu] [rof] [0u] r [wu] r
+[9yah] r [wy] [rod] [9y] r [wy] r
+[9yaG] r [Qy] [Ird] [9yd] r [Qy] r
+[9ypG] e [Qy] [Ied] [9yd] e [Qy] e
+[0ua]f[rk]a[wuf]k[ra]f[0uk]a[rf]k[wua]f[rs]f
+[9ya]d[rk]a[wyd]k[ra]d[9yk]a[rd]k[wya]d[rp]d
+[9yI]a[rG]I[Qya]G[rI]a[9yG]I[ra]G[yQI]a[ro]a
+[9yp]d[ej]p[Qyd]j[ep]d[9yj]p[ed]j[Qyp]d[eo]d
+[0ua]f[rk]a[wuf]k[ra]f[0uk]a[rf]k[wua]f[rs]f
+[9ya]d[rk]a[wyd]k[ra]d[9yk]a[rd]k[wya]d[rp]d
+[9yI]a[rG]I[Qya]G[rI]a[9yG]I[ra]G[yQI]a[ro]a
+[9yp]d[ej]p[Qyd]j[ep]d[9yj]p[ed]j[Qyp]d[ej]
+[0u] [rh]G[wuh] [rk]l[0uk] r [wu] r
+[9y] [rG]h[wyG] [rh]j[9yh] r [wy] r
+[9y] [rG]f[yQG] [rk]l[9yk] r [Qy] r
+[9y] [eG]f[yQG] e [9y] e [Qy] e
+[0u] [rh]G[wuh] [rk]l[0uk] r [wu] r
+[9y] [rG]h[wyG] [rh]j[9yh] r [wy] r
+[9y] [rG]f[yQG] [rk]l[9yk] r [Qy] r
+[9y] [eG]f[yQG] e [9y] e [Qy] e
+[0ux] r [wu] [rk] [0u] r [wu] r
+[9yz] r [wy] [rk] [9y] r [wy] r
+[9yC] r [Qy] [rk] [9y] r [Qy] r
+[9yC] e [Qy] [ej] [9y] e [Qy] e
+[0ukv] r [wu] [rhx] [0u] r [wu] r
+[9ykv] r [wy] [rhz] [9y] r [wy] r
+[9ykC] r [Qy] [Grz] [9y] r [Qy] r
+[9yjC] e [Qy] [Gez] [9y] e [Qy] e
+[0uk]x[rn]k[wux]n[rk]x[0un]k[rx]n[wuk]x[rl]x
+[9yk]z[rn]k[wyz]n[rk]z[9yn]k[rz]n[wyk]z[rj]z
+[9yG]k[rC]G[Qyk]C[rG]k[9yC]G[rk]C[yQG]k[rh]k
+[9yj]z[eb]j[Qyz]b[ej]z[9yb]j[ez]b[Qyj]z[eh]z
+[0uk]x[rn]k[wux]n[rk]x[0un]k[rx]n[wuk]x[rl]x
+[9yk]z[rn]k[wyz]n[rk]z[9yn]k[rz]n[wyk]z[rj]z
+[9yG]k[rC]G[Qyk]C[rG]k[9yC]G[rk]C[yQG]k[rh]k
+[9yj]z[eb]j[Qyz]b[ej]z[9yb]j[ez]b[Qyj]zbv
+[0ruhkx] ]]
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
