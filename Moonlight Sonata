@@ -1,0 +1,78 @@
+-- Sheet for you
+
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+    shared.ftime = nil -- time in seconds for the song to finish (extended by |)
+    shared.delay = nil -- delay overides the ftime
+    shared.tempo = 30 -- tempo overides the delay
+
+    shared.scr = [[ [!*W]TuWTuWTuWTu
+[7W]TuWTuWTuWTu
+[6e]TueTu[$e]yIeyI
+[%W]tIWTu[%W]TYQtY
+[!%*0]WTWTuWTu[WO]TuO
+[18%WO]YIWYIWYI[WO]YIO
+[!*WO]TuWTu[$ep]TIeTI
+[7WO]ruWru[7eI]rY[ea]rY
+[W30u]ruWruWruWru
+[30w]ruwruwru[wo]ruo
+[29wo]riwriwri[wo]rio
+[18wo]tu[7w]ru[^w]Tu[QI]Tu
+[7QI]ryQry[3wo]rT[50u]rT
+[$QI]ryQry[$QI]ETQET
+[7r]yIryIrYI[ra]YI
+[rs]uo[30r]uo[5wr]uo[30rP]uo
+[7ra]YIrYIrYI[ra]YI
+[rs]uo[30r]uo[5wr]uo[30rP]uo
+[7ra]YIrYI[%ra]yiryi
+[4ra]TOrTO[$ep]TIeTI
+[%7wo]rywry[18QI]eYQeY
+[!*T]Qe*Qe[!*T]QW[*T]qW
+[!$Q]eTeTITIp[TS]IpS
+[4q*TS]OaTOaTOa[TS]OaS
+[$QTS]IpTIp[@(ts]Ip[!*TS]Ip
+[18%YD]IOYIOYIO[18%YD]IO
+[!%*uf]OSuOS[$YD]Ip[5TS]uP
+[%s]tYOtYptYItY
+%tYWtYetYQtY
+[%0]uOSuOfuOSuO
+%0WT0Wu0WT0W
+[%(]eQteYtIYpIs
+[%0]TWuTOuSOfSp
+[%T]ouPoSPfShfJ
+[%I]spDsGDjGljZ
+lGjDGsDpsIpY
+ItYetQe(Q*Qe
+[%8]QWeWQ(Qe*Qe
+[%8]QWeWQ9Qe*Qe
+[%8]QWeWQ[6*]0T*0T
+[$(]eT(eT[%(]Wt(Qt
+[!%*0]WTWTuWTu[WO]TuO
+[18%WO]YIWYIWYI[WO]YIO
+[!*WO]TuWTu[$ep]TIeTI
+[7WO]ruWru[7eI]rY[ea]rY
+[W30u]ruruOruO[ra]uOa
+[@(ra]IprIprIp[ra]Ipa
+[30ra]uOruO[@(ts]IO[!*TS]IO
+[18%YD]IOYIO[!%*uf]OSuOS
+[$yd]IpyIp[%ts]IOtIO
+[!*TS]uOTuOTiO[TS]iO
+[Td]Ip[$QT]Ip[6eT]Ip[$QTs]Ip
+[!*TS]iOTiOTiO[TS]iO
+[Td]Ip[$QT]Ip[6eT]Ip[$QTs]Ip
+[!*TS]iOTiO[$TS]IpTIp
+[@(ra]IprIprIp[30ra]uO
+[*3ep]uO[@(ep]YI[18WO]YI[!*WO]Tu
+[6QI]TYQTY[%WO]TY[$ep]TY
+[%WO]TuWTu[%QO]tYQtY
+[0!%T]WTWTuWTu[%W]Tu%
+[1%W]YIWYIWYI[%W]YI%
+[!%W]uTOuSOfS[%H]fS%
+[%s]DpsIpYIe[%t]WQ%
+[0!%T]uTOuSOfS[%H]fS%
+[%s]DpsIpYIe[%t]WQ%
+[!%0]WTuTW*0WTW0
+%*0W0*%*%3%3
+!--[0!%*WT]--
+[0!%*WT] ]]
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/sharedlol/main/shared.lua", true))()
